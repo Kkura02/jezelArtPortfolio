@@ -140,14 +140,15 @@ ul{
     max-height: 5rem;
 }
 .links li a{
-    transition-duration: .5s;
+    transition-duration: .3s;
     transition-timing-function: linear;
-    transition-delay: .2s;
+    /* transition-delay: .2s; */
+    border-radius: 25%;
 }
 
 .links li a:hover{
-    transform: translate(0,-1rem);
-    
+    transform: translate(0,-.75rem);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 
