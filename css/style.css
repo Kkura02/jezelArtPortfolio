@@ -170,22 +170,22 @@ ul{
 
 
 /* The switch - the box around the slider */
-/* .switch {
+.switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-  } */
+  }
   
   /* Hide default HTML checkbox */
-  /* .switch input {
+  .switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  } */
+  }
   
   /* The slider */
-  /* .slider {
+  .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -221,10 +221,10 @@ ul{
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  } */
+  }
 
 /* Rounded sliders */
-/* .slider.round {
+.slider.round {
     border-radius: 34px;
 }
   
@@ -235,7 +235,7 @@ ul{
 .nsfw-toggle{
     display: flex;
     justify-content: center;
-} */
+}
 
 
 .portfolio{

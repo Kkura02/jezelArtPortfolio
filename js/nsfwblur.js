@@ -1,3 +1,8 @@
+for(i=1;i<=15;i++){
+    console.log("blur");
+    document.getElementById("nsfwimg"+i).style.filter = "blur(25px)";
+}
+
 function myFunction() {
     // Get the checkbox
     var checkBox = document.getElementById("myCheck");
@@ -5,14 +10,13 @@ function myFunction() {
   
     // If the checkbox is checked, display the output text
     if (checkBox.checked == true){
-        console.log("Hello world!");
-        document.getElementById("nsfwimg1").style.filter = "blur(0px)";
-        document.getElementById("nsfwimg2").style.filter = "blur(0px)";
-        document.getElementById("nsfwimg3").style.filter = "blur(0px)";
+        //15 because there are 15 images on html code. change if images count changes
+        for(i=1;i<=15;i++){
+            document.getElementById("nsfwimg"+i).style.filter = "blur(0px)";
+        }
     } else {
-        console.log("hatsus not");
-        document.getElementById("nsfwimg1").style.filter = "blur(25px)";
-        document.getElementById("nsfwimg2").style.filter = "blur(25px)";
-        document.getElementById("nsfwimg3").style.filter = "blur(25px)";
+        for(i=1;i<=15;i++){
+            document.getElementById("nsfwimg"+i).style.filter = "blur(25px)";
+        }
     }
   }
