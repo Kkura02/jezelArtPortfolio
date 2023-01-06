@@ -116,7 +116,7 @@ h1,h2, h3{
     font-weight: 400;
     
 }
-#title span{
+#title font{
     line-height:0.870 ;
     font-size: 4rem;
 }
@@ -148,21 +148,22 @@ ul{
 .links ul li{
     display: inline-flex;
     padding: 0 4rem;
+    
 }
 .links ul li img{
     height: auto; 
     width: auto; 
     max-width: 5rem; 
-    max-height: 5rem;
+    max-height: 5rem; 
+    border-radius: 50%;
+    transition: transform linear 0.3s;
 }
 .links li a{
-    transition-duration: .3s;
-    transition-timing-function: linear;
-    /* transition-delay: .2s; */
-    border-radius: 25%;
+    border-radius: 45%;
+    padding: 0;
 }
 
-.links li a:hover{
+.links li a img:hover{
     transform: translate(0,-.75rem);
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -263,4 +264,10 @@ ul{
 }
 .foot{
     padding: 2rem;
+}
+
+
+/* for security purposes */
+.prtflimg{
+    pointer-events: none;
 }
