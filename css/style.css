@@ -265,3 +265,9 @@ ul{
 .foot{
     padding: 2rem;
 }
+
+
+/* for security purposes */
+.prtflimg{
+    pointer-events: none;
+}
